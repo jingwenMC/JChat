@@ -28,6 +28,10 @@
                 <configuration>
                     <source>${java.version}</source>
                     <target>${java.version}</target>
+                    <compilerArguments>
+                        <!-- 打包本地jar包 -->
+                        <extdirs>lib</extdirs>
+                    </compilerArguments>
                 </configuration>
             </plugin>
             <plugin>
@@ -72,6 +76,13 @@
             <artifactId>spigot-api</artifactId>
             <version>1.15.2-R0.1-SNAPSHOT</version>
             <scope>provided</scope>
+        </dependency>
+        <dependency>
+            <groupId>com.spigotlib</groupId>
+            <artifactId>spigot-out-api-1</artifactId>
+            <version>1.0.0</version>
+            <scope>system</scope>
+            <systemPath>${pom.basedir}/lib/SpigotLib.jar</systemPath>
         </dependency>
     </dependencies>
 </project>

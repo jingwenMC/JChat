@@ -14,3 +14,7 @@
 
 TODO:
 跨服私信
+
+##Build
+`mvn install:install-file -Dfile=${project.basedir}/lib/SpigotLib.jar -DgroupId=com.gyurix -DartifactId=gyurix -Dversion=1.0 -Dpackaging=jar
+`
