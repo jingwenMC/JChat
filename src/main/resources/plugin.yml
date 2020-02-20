@@ -5,3 +5,6 @@ api-version: 1.13
 authors: [jingwenMC]
 description: A Chat Plugin That Supports Cross-server
 website: jplex.cn
+commands:
+  lb:
+    description: Say HelloWorld cross-server
