@@ -21,5 +21,6 @@ public final class Jchat extends JavaPlugin {
         System.out.println("=====Developed for JPlex Network=====");
         System.out.println("=====License:Open-Source,MIT    =====");
         System.out.println("=====Now Disabled. (c)JPlex 2020=====");
+        System.out.println("=====Goodbye!                   =====");
     }
 }
