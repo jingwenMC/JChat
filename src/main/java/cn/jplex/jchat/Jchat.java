@@ -39,4 +39,5 @@ public class Jchat extends JavaPlugin {
         System.out.println("=====Goodbye!                   =====");
         System.out.println("=====================================");
     }
+
 }

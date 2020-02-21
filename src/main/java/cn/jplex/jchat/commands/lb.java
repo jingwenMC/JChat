@@ -20,8 +20,17 @@ public class lb implements CommandExecutor {
         if (sender instanceof Player)
         {
             Player player = (Player) sender;
+            String[] strings = {"alter hello world"};
             //bungeeListener.sendBungeeMeesage(player,"ALL","HelloWorld");
-            bungeeAPI.sendMessage("HelloWorld","ALL");
+            //bungeeAPI.sendMessage("HelloWorld","ALL");
+            if(bungeeAPI.executeBungeeCommands(strings,"ALL"))
+            {
+                return true;
+            }
+            else
+            {
+                player.sendMessage(ChatColor.RED+"[JChat]Error While Executing command lb...Please Contact us.(Err.JP1)");
+            }
         }
         else
         {
