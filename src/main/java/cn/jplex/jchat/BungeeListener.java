@@ -21,7 +21,7 @@ public class BungeeListener extends JavaPlugin implements PluginMessageListener 
             return;
         }
     }
-    public void sendBungeeMeesage(String dest,String mess)
+    public void sendBungeeMeesage(Player player,String dest,String mess)
     {
         ByteArrayDataOutput out = ByteStreams.newDataOutput();
         out.writeUTF("Message");
@@ -31,7 +31,7 @@ public class BungeeListener extends JavaPlugin implements PluginMessageListener 
         // If you don't care about the player
         // Player player = Iterables.getFirst(Bukkit.getOnlinePlayers(), null);
         // Else, specify them
-        Player player = Bukkit.getPlayerExact("Example");
+        //Player player = Bukkit.getPlayerExact("Example");
 
         player.sendPluginMessage(this, "BungeeCord", out.toByteArray());
     }

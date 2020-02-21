@@ -9,7 +9,7 @@ import org.bukkit.plugin.java.JavaPlugin;
 //import org.bukkit.plugin.messaging.PluginMessageListener;
 //import gyurix.mysql.*;
 
-public final class Jchat extends JavaPlugin {
+public class Jchat extends JavaPlugin {
 
     @Override
     public void onEnable() {

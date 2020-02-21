@@ -9,7 +9,6 @@ import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
 import org.bukkit.plugin.Plugin;
 import cn.jplex.jchat.BungeeListener;
-//import gyurix.api.BungeeAPI;
 
 
 public class lb implements CommandExecutor {
@@ -19,7 +18,7 @@ public class lb implements CommandExecutor {
         if (sender instanceof Player)
         {
             Player player = (Player) sender;
-            bungeeListener.sendBungeeMeesage("ALL","HelloWorld");
+            bungeeListener.sendBungeeMeesage(player,"ALL","HelloWorld");
         }
         else
         {
