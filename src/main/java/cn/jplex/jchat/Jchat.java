@@ -13,8 +13,8 @@ public class Jchat extends JavaPlugin {
 
     @Override
     public void onEnable() {
-        this.getServer().getMessenger().registerOutgoingPluginChannel(this, "BungeeCord");
-        this.getServer().getMessenger().registerIncomingPluginChannel(this, "BungeeCord", new BungeeListener());
+        //this.getServer().getMessenger().registerOutgoingPluginChannel(this, "BungeeCord");
+        //this.getServer().getMessenger().registerIncomingPluginChannel(this, "BungeeCord", new BungeeListener());
         System.out.println("=====================================");
         System.out.println("=====JChat By JPlex Develop Team=====");
         System.out.println("=====Developed for JPlex Network=====");

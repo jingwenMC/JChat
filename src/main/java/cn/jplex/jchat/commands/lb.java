@@ -8,17 +8,20 @@ import org.bukkit.command.CommandExecutor;
 import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
 import org.bukkit.plugin.Plugin;
-import cn.jplex.jchat.BungeeListener;
+//import cn.jplex.jchat.BungeeListener;
+import gyurix.api.BungeeAPI;
 
 
 public class lb implements CommandExecutor {
-    private BungeeListener bungeeListener = new BungeeListener();
+    //private BungeeListener bungeeListener = new BungeeListener();
+    private BungeeAPI bungeeAPI = new BungeeAPI();
     @Override
     public boolean onCommand(CommandSender sender, Command command, String label, String[] args) {
         if (sender instanceof Player)
         {
             Player player = (Player) sender;
-            bungeeListener.sendBungeeMeesage(player,"ALL","HelloWorld");
+            //bungeeListener.sendBungeeMeesage(player,"ALL","HelloWorld");
+            bungeeAPI.sendMessage("HelloWorld","ALL");
         }
         else
         {
