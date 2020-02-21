@@ -1,8 +1,12 @@
 package cn.jplex.jchat;
 
 import cn.jplex.jchat.commands.lb;
+//import com.google.common.io.ByteArrayDataInput;
+//import com.google.common.io.ByteStreams;
+//import org.bukkit.entity.Player;
 import org.bukkit.plugin.java.JavaPlugin;
-import gyurix.api.BungeeAPI;
+//import gyurix.api.BungeeAPI;
+//import org.bukkit.plugin.messaging.PluginMessageListener;
 //import gyurix.mysql.*;
 
 public final class Jchat extends JavaPlugin {
