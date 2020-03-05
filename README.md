@@ -1,7 +1,8 @@
-#JChat : Jingwen's Bungee Chat System(JBCS)
+# JChat : Jingwen's Bungee Chat System(JBCS)
 This project is now ABANDONED,will be no any updates.
+弃坑了，不会有更新了
 先提供 简体中文
-##原理 
+## 原理 
 通过第三方插件SpigotLib实现的一个跨服喊话功能。
 后期将添加跨服私信等。
 
@@ -15,7 +16,3 @@ This project is now ABANDONED,will be no any updates.
 
 TODO:
 跨服私信
-
-##Build
-`mvn install:install-file -Dfile=${project.basedir}/lib/SpigotLib.jar -DgroupId=com.gyurix -DartifactId=gyurix -Dversion=1.0 -Dpackaging=jar
-`
