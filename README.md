@@ -1,4 +1,5 @@
 #JChat : Jingwen's Bungee Chat System(JBCS)
+This project is now ABANDONED,will be no any updates.
 先提供 简体中文
 ##原理 
 通过第三方插件SpigotLib实现的一个跨服喊话功能。
